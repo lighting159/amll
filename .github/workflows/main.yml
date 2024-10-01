@@ -30,7 +30,7 @@ jobs:
         with:
           version: "14"
       - name: 配置 NodeJS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
       - name: 安装 Tauri 所需系统依赖（仅 Linux）
